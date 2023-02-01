@@ -20,7 +20,6 @@
         margin-bottom: 26px;
         span {
           font-weight: 700;
-          font-family: $Cochin;
           display: block;
           white-space: normal;
         }
@@ -39,14 +38,121 @@
           @include fontSize(18px, 400, 22px, white);
           letter-spacing: 1.6px;
           &:first-child {
-            background-color: $black;
-            border: 1.5px solid $black;
+            background-color: $orange;
+            border: 1.5px solid $orange;
           }
           &:last-child {
             border: 1.5px solid $black;
             background-color: #fffdfd;
             color: $black;
             margin-left: 37px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.about {
+  background-color: $black;
+  padding: 112px 0;
+  &-container {
+    display: flex;
+    .left {
+      width: 55%;
+      p {
+        @include fontSize(24px, 400, 38px, white);
+      }
+    }
+    .right {
+      width: 45%;
+      h2 {
+        color: white;
+        margin-left: 58px;
+      }
+    }
+  }
+}
+
+.advantage {
+  padding-top: 160px;
+  &-header {
+    margin-bottom: 64px;
+    text-align: center;
+    span {
+      letter-spacing: 5px;
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(289px, 1fr));
+    .card {
+      .card-img {
+        position: relative;
+        width: 229px;
+        height: 229px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        img {
+          position: static !important;
+          width: initial !important;
+          height: initial !important;
+        }
+      }
+      .card-text {
+        text-align: center;
+        padding: 0 20px;
+        p {
+          color: $grey;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+}
+
+.members {
+  background-color: #e4e4e4;
+  padding: 160px 0;
+  h2 {
+    text-align: center;
+    line-height: 86px;
+    margin-bottom: 66px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(415px, 1fr));
+    gap: 27px;
+    .card {
+      background-color: white;
+      @include flexBox(center, center);
+      flex-direction: column;
+      padding-top: 64px;
+      padding-left: 64px;
+      padding-right: 64px;
+      padding-bottom: 42px;
+      h5 {
+        margin-top: 40px;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+      }
+      h6 {
+        text-align: center;
+        color: #494949;
+        font-weight: 400;
+        margin-bottom: 32px;
+      }
+      p {
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 32px;
+      }
+      .social-icons {
+        a {
+          &:nth-child(2) {
+            margin: 0 38px;
           }
         }
       }

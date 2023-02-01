@@ -30,17 +30,26 @@ h1 {
   font-size: 86px;
   font-weight: 700;
   line-height: 86px;
-  font-family: $Cochin;
 }
 h2 {
   font-size: 70px;
   font-weight: 700;
   line-height: 81.5px;
-  font-family: $Cochin;
 }
 h3 {
   font-size: 48px;
   font-weight: 700;
   line-height: 55.8px;
-  font-family: $Cochin;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
 }
