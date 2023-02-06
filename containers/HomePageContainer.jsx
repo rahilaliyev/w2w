@@ -5,7 +5,7 @@ import Link from "next/link";
 const HomePageContainer = () => {
   return (
     <>
-      <section className="main-section">
+      <section className="main-section" id="main">
         <div className="main-section-container container">
           <div className="left">
             <h1>
@@ -23,7 +23,7 @@ const HomePageContainer = () => {
           </div>
         </div>
       </section>
-      <section className="about">
+      <section className="about" id="about">
         <div className="about-container container">
           <div className="left">
             <p>
@@ -36,7 +36,7 @@ const HomePageContainer = () => {
           </div>
         </div>
       </section>
-      <section className="advantage">
+      <section className="advantage" id="advantage">
         <div className="advantage-container container">
           <div className="advantage-header">
             <h2>Üstünlüklər</h2>
@@ -82,7 +82,7 @@ const HomePageContainer = () => {
           </div>
         </div>
       </section>
-      <section className="works">
+      <section className="works" id="works">
         <div className="works-container container">
           <h2>Necə işləyir?</h2>
           <div className="content">
@@ -238,7 +238,7 @@ const HomePageContainer = () => {
           </div>
         </div>
       </section>
-      <section className="subscribe">
+      <section className="subscribe" id="subscribe">
         <div className="subscribe-container container">
           <h3>W2W-da olan yeniliklərdən xəbərdar olun!</h3>
           <span>Abunə olun və UYĞUN TƏKLİFLƏRİ QAÇIRMAYIN!</span>

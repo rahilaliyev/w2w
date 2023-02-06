@@ -11,6 +11,9 @@ header {
             margin-left: 45px;
             a {
               @include fontSize(16px, 500, 19.5px, $black);
+              &:hover {
+                color: $orange;
+              }
             }
             &:last-child {
               margin-right: 32px;
@@ -25,6 +28,12 @@ header {
         letter-spacing: 10%;
         padding: 20px 65px;
         border-radius: 10px;
+        border: 1px solid $orange;
+        &:hover {
+          border: 1px solid $black;
+          color: $black;
+          background-color: transparent;
+        }
       }
     }
   }

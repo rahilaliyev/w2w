@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 const Header = () => {
   return (
@@ -12,23 +13,25 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <Link href="#">Ana səhifə</Link>
+                <AnchorLink href="#main">Ana səhifə</AnchorLink>
               </li>
               <li>
-                <Link href="#">W2W nədir?</Link>
+                <AnchorLink href="#about">W2W nədir?</AnchorLink>
               </li>
               <li>
-                <Link href="#">Üstünlüklər</Link>
+                <AnchorLink href="#advantage">Üstünlüklər</AnchorLink>
               </li>
               <li>
-                <Link href="#">Necə işləyir?</Link>
+                <AnchorLink href="#works">Necə işləyir?</AnchorLink>
               </li>
               <li>
-                <Link href="#">FAQ</Link>
+                <AnchorLink href="#subscribe">FAQ</AnchorLink>
               </li>
             </ul>
           </nav>
-          <Link href="#" className="enter">DAXİL OL</Link>
+          <Link href="#" className="enter">
+            DAXİL OL
+          </Link>
         </div>
       </div>
     </header>
