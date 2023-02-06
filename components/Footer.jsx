@@ -35,7 +35,9 @@ const Footer = () => {
           </div>
           <div className="down">
             <div className="down-left-text">
-              <h2>Rahat, Sürətli, Təhlükəsiz!</h2>
+              <h2>
+                Rahat, <br /> Sürətli, Təhlükəsiz!
+              </h2>
             </div>
             <div className="down-right-text">
               <div className="contact-footer">

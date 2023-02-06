@@ -82,6 +82,98 @@ const HomePageContainer = () => {
           </div>
         </div>
       </section>
+      <section className="works">
+        <div className="works-container container">
+          <h2>Necə işləyir?</h2>
+          <div className="content">
+            <div className="content-header">
+              <div className="left">
+                <h4>Alıcı</h4>
+                <p>(Kripto almaq istəyən)</p>
+              </div>
+
+              <div className="right">
+                <h4>Satıcı</h4>
+                <p>(Kripto satmaq istəyən)</p>
+              </div>
+            </div>
+            <div className="content-list">
+              <div className="left">
+                <p>
+                  <span>W2W</span> hesabı yaradırsan və təsdiqləyirsən.{" "}
+                </p>
+                <p>
+                  <span>W2W</span> azn balansını artırırsan.
+                </p>
+                <p>
+                  Platformada yerləşdirilən təkliflərlə tanış olur və uyğun olanı seçib təsdiqləyirsən və ya sənə uyğun təklif tapmadıqda kripto almaq
+                  üçün öz şərtlərinə uyğun təklif yaradırsan.
+                </p>
+                <p>
+                  <span>W2W</span> əməliyyatçısı əməliyyatı yoxlayıb təsdiqləyir, alıcının vəsaitini satıcının hesabına və satıcının kriptovalyutasını
+                  alıcının kripto ünvanına göndərir. <span className="success">Təbriklər!</span> <span>Kriptovalyuta artıq sənin cüzdanındadır.</span>
+                </p>
+              </div>
+              <div className="center">
+                <ul>
+                  <li>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                    <div className="number"> 1</div>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                    <div className="number"> 2</div>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                    <div className="number"> 3</div>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                    <div className="number"> 4</div>
+                    <div className="circle">
+                      <div className="into-circle"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="right">
+                <p>
+                  <span>W2W</span> hesabı yaradırsan və təsdiqləyirsən.
+                </p>
+                <p>
+                  <span>W2W</span> USDT balansını artırırsan.
+                </p>
+                <p>
+                  Platformada yerləşdirilən təkliflərlə tanış olur və uyğun olanı seçib təsdiqləyirsən və ya sənə uyğun təklif tapmadıqda kripto
+                  satmaq üçün öz şərtlərinə uyğun təklif yaradırsan.
+                </p>
+                <p>
+                  <span>W2W</span> əməliyyatçısı əməliyyatı yoxlayıb təsdiqləyir, alıcının vəsaitini satıcının hesabına və satıcının kriptovalyutasını
+                  alıcının kripto ünvanına göndərir. <span className="success">Təbriklər!</span> <span> Kriptovalyutanı manata dəyişdin.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="members">
         <div className="members-container container">
           <h2>Komanda üzvləri</h2>
@@ -144,6 +236,16 @@ const HomePageContainer = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="subscribe">
+        <div className="subscribe-container container">
+          <h3>W2W-da olan yeniliklərdən xəbərdar olun!</h3>
+          <span>Abunə olun və UYĞUN TƏKLİFLƏRİ QAÇIRMAYIN!</span>
+          <form>
+            <input type="email" placeholder="E-Poçt ünvanınız..." />
+            <button type="submit">ABUNƏ OL</button>
+          </form>
         </div>
       </section>
     </>

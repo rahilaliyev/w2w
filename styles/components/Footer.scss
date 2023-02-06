@@ -36,7 +36,7 @@ footer {
             margin-bottom: 14px;
             p {
               &:first-child {
-                @include fontSize(16px, 500, 15px, $green);
+                @include fontSize(16px, 500, 15px, $orange);
                 letter-spacing: 8px;
                 margin-bottom: 18px;
               }
