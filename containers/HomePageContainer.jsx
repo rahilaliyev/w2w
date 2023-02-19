@@ -10,7 +10,10 @@ const HomePageContainer = () => {
           <div className="left">
             <h1>
               Cüzdandan cüzdana
-              <span> Rahat, Sürətli, Təhlükəsiz!</span>
+              <span>
+                {" "}
+                Rahat, Sürətli, <br /> Təhlükəsiz!
+              </span>
             </h1>
             <p>Kriptovalyuta və real valyutalar arasında risksiz və təhlükəsiz mübadilə xidmətini göstərən rəqəmsal sövdələşmə platforması</p>
             <div className="button-group">
